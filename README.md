@@ -27,17 +27,22 @@ A simple CLI tool to track cryptocurrencies.
    make
    ```
 
+4. **Make the script executable:**
+
+   ```bash
+   make install-executable
+   ```
+
 ## Usage
 
-After building the project, you can use the CLI to track cryptocurrencies. Here’s an example command:
+After building the project and making the script executable, you can run the CLI tool from anywhere:
 
 ```bash
-./crypto-tracker [options]
+crypto-tracker [options]
 ```
 
-Replace  with the specific options for the cryptocurrencies you want to track. For more details on available options, run:
+Replace `[options]` with the specific options for the cryptocurrencies you want to track. For more details on available options, run:
 
 ```bash
-./crypto-tracker --help
+crypto-tracker --help
 ```
-
